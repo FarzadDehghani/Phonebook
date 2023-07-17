@@ -1,0 +1,39 @@
+.editcontact__input {
+    width: 540px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editcontact__btn {
+    width: 600px;
+}
+
+.editcontact__btn button {
+    width: 600px;
+    height: 50px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+}
+
+.editcontact__input input {
+    text-indent: 10px;
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-left: 15px;
+}
+
+.contact__caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}

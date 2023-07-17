@@ -1,0 +1,39 @@
+.contact__container {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: all .2s ease-in-out;
+    background-color: rgb(25, 0, 139);
+}
+
+.contact__container:hover {
+    background-color: rgba(2, 0, 139, 0.76);
+}
+
+.contact__bookmark {
+    width: 12px;
+    height: 100%;
+    background-color: #6a73af;
+}
+
+.contact__caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.contact__action__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 100%;
+    background-color: rgba(110, 110, 110, 0.5);
+}

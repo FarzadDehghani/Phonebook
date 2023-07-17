@@ -1,0 +1,25 @@
+.card {
+  width: 600px;
+  height: 80px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card p {
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.user__icon {
+  height: 54px;
+}
